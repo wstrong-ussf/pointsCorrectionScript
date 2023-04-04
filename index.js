@@ -2,7 +2,6 @@ import { readFileSync } from "fs";
 import { pipe, fromPairs, zip, uniq } from 'remeda';
 import config from "./config.js";
 import { openLoyalty } from "./openLoyalty/client.js";
-import { Response } from "node-fetch";
 
 const importTsvAsJson = () => {
     // read spreadsheet
